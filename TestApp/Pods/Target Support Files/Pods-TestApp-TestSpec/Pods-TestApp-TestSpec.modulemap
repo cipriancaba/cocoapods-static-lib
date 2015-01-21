@@ -1,0 +1,6 @@
+framework module TestSpec {
+  umbrella header "Pods-TestApp-TestSpec-umbrella.h"
+
+  export *
+  module * { export * }
+}

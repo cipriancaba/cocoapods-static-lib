@@ -1,0 +1,26 @@
+{
+  "name": "TestSpec",
+  "version": "0.0.1",
+  "summary": "Test",
+  "homepage": "https://www.google.com",
+  "authors": {
+    "Ciprian Caba": "1@2.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/CocoaPods/CocoaPodsTest.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "TestSpec/*.{h,c,m,swift}",
+  "resource_bundles": {
+    "TestSpecBundle": [
+      "TestSpec/*.png"
+    ]
+  },
+  "frameworks": "UIKit",
+  "vendored_libraries": "TestSpec/Libs/libssl.a",
+  "libraries": "ssl"
+}
